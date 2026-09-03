@@ -1,0 +1,27 @@
+h1{
+    font-size: 22pt;
+    font-weight: bold;
+}
+
+h2, h3{
+    font-size: 18pt;
+}
+
+h1,h2,h3{
+    text-decoration: underline;
+    color: #A4A400;
+}
+
+p, ol, ul{
+    background-color: white;
+    color: #404040;
+    font-size: 11pt;
+    font-family: Georgia, Garamond, serif;
+}
+
+#att{
+    font-style: italic;
+    background-color: #FFFFA8 ;
+    border-radius: 5px;
+    padding: 10px;
+}
