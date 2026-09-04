@@ -12,7 +12,7 @@ h1,h2,h3{
     color: #A4A400;
 }
 
-p, ol, ul{
+p, ol{
     background-color: white;
     color: #404040;
     font-size: 11pt;
@@ -24,4 +24,18 @@ p, ol, ul{
     background-color: #FFFFA8 ;
     border-radius: 5px;
     padding: 10px;
+}
+
+#favicon{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    display: block; 
+}
+
+.custom_list{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    display: inline; 
 }
