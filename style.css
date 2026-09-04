@@ -12,7 +12,7 @@ h1,h2,h3{
     color: #A4A400;
 }
 
-p, ol{
+p, ol, ul{
     background-color: white;
     color: #404040;
     font-size: 11pt;
@@ -33,9 +33,26 @@ p, ol{
     display: block; 
 }
 
-.custom_list{
+.custom-list{
     width: 25px;
     height: 25px;
     margin-right: 10px;
     display: inline; 
+}
+
+.list{
+    display: flex;
+    align-items: center;
+}
+
+.icon{
+    padding: 10px;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.contact{
+   display: flex;
+   align-items:center;
 }
